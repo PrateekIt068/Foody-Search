@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "target": "es2020",
-    "module": "commonjs",
+    "module": "Node16",
+    "rootDir": "./src",
     "lib": ["dom", "es6", "es2017", "esnext.asynciterable", "ES2020.Promise"],
     "skipLibCheck": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "moduleResolution": "node",
+    "moduleResolution": "node16",
     "removeComments": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
